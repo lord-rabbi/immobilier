@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgba(46, 46, 96, 0.283);
+    
+}
+header{
+    background-color: black;
+    height: 30px;
+    padding: 30px;
+    color: white;
+}
+.logo{
+    font-size: 30px;
+}
+.logo img{
+    height: 60px;
+}
+span{
+    color: rgb(170, 105, 105);
+}
+nav ul{
+    display: flex;
+    margin-left: 60%;
+    margin-top: -30px;
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    background-color: rgb(170, 105, 105);
+}
+.introduction img{
+    width: 100%;
+    height: 88vh;
+}
+.slot h2{
+    text-align: center;
+    margin-top: -380px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 32px;
+    opacity: 1;
+}
+.slot h1{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 10px;
+}
+button{
+    margin-left: 45%;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(170, 105, 105);
+    border: none;
+}
+.apropos{
+    color: rgb(8, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(image/hero-shape-2.png);
+}
+.apropos h3{
+    margin-top: 24%;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+.apropos p{
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    opacity: 1;
+
+}
+.equipe{
+    display: flex;
+    gap: 30px;
+    background-image: url(image/video-shape-1.png);
+}
+.equipe img{
+    height: 60%;
+    width: 65%;
+    margin-left: 50px;
+    border-radius: 50px 50px 50px 50px;
+}
+.anonce{
+    background-color: rgb(170, 105, 105);
+    width: 75%;
+    height: 280px;
+    margin-left: -160px;
+    margin-right: 25px;
+    margin-top: 140px;
+    border-radius: 40px 0 50px 0;
+    opacity: 0.8;
+}
+.bliste{
+    margin-top: 140px;
+    margin-left: 65px;
+    margin-bottom: 60px;
+}
+.bliste .cliste{
+    display: flex;
+}
+.liste1{
+    height: 130px;
+    width: 240px;
+    border-radius: 18px;
+    background-color: #4ED995;
+    text-align: center;
+}
+h3{
+    padding-top: 45px;
+    font-size: 25px;
+}
+.liste2{
+    height: 130px;
+    width: 240px;
+    border-radius: 18px;
+    background-color: #FC9293;
+    text-align: center;
+}
+.liste3{
+    height: 130px;
+    width: 240px;
+    border-radius: 18px;
+    background-color: #BF33C9;
+    text-align: center;
+}
+.liste4{
+    height: 130px;
+    width: 240px;
+    border-radius: 18px;
+    background-color: #B2AD2B;
+    text-align: center;
+}
+.lamas{
+    background-image: url(image/blog-shape.png);
+}
+.logo1 h2{
+    font-size: 30px;
+    padding-top: 70px;
+    margin-left:40px ;
+}
+.logo1{
+    flex-direction: column;
+    margin-left: 90px;
+}
+.logo1 h4{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.pflut{
+    margin-top: 40px;
+    text-align: center;
+    background-color: rgb(170, 105, 105);
+    max-width: 90%;
+    height: 345px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
+.pflut h2{
+    padding: 70px;
+    font-weight: 100;
+
+}
+.local{
+    display: flex;
+    margin-left: 80px;
+}
+.local img{
+    height: 50px;
+    margin-left: 150px;
+}
+.local1 p{
+    margin-top: 10px;
+    margin-left: 150px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 350px;
+    display: flex;
+    background-image: url(image/blog-shape.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.foot{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+/*================= categorie=============*/
+.habitas{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.habitas h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.habitas h2{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.habitas p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.maison{
+    display: flex;
+    max-width: 80%;
+    margin-left: 120px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-bottom: 40px;
+
+}
+.maison img{
+    width: 400px;
+    height: 250px;
+    margin-left: 60px;
+    box-shadow: 20px black;
+
+}
+.mai1{
+    border: solid 2px white;
+    background-color: white;
+    width: 396px;
+    height: 260px;
+    margin-left: 60px;
+    margin-top: -6px;
+}
+.mai1 p{
+    margin-bottom: 14px;
+}
+.rens{
+    display: flex;
+}
+.rens p{
+    text-align: center;
+    margin-left: 50px;
+}
