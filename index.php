@@ -13,7 +13,7 @@
             <ul>
                 <li><a href="#">Accueil</a></li>
                 <li><a href="#ap">A propos</a></li>
-                <li><a href="categorie.html">Categories</a></li>
+                <li><a href="categorie.php">Categories</a></li>
                 <li><a href="#cont">Contact</a></li>
                 <li><a href="inscription.php">connection</a></li>
             </ul>
@@ -103,9 +103,9 @@
         <div class="logo1">
             <h2>platform</h2>
             <ul class="foot">
-                <li><a href="#">Accueil</a></li>
-                <li><a href="index.html#ap">A propos</a></li>
-                <li><a href="categorie.html">Categories</a></li>
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="index.php#ap">À propos</a></li>
+                <li><a href="categorie.php">Catégories</a></li>
                 <li><a href="#cont">Contact</a></li>
             </ul>
         </div>
