@@ -7,7 +7,7 @@ if (!isset($_SESSION['user_id'])) {
     exit();
 }
 
-$admin = isset($_SESSION['role']) && $_SESSION['role'] === 'admin';
+$admin = isset($_SESSION['role']) && trim(strtolower($_SESSION['role'])) === 'admin';
 
 $message = "";
 
@@ -47,7 +47,6 @@ if ($admin && isset($_POST['send'])) {
     }
 }
 
-
 $req = mysqli_query($con, "SELECT * FROM images");
 $annonces = [];
 while ($row = mysqli_fetch_assoc($req)) {
@@ -81,7 +80,9 @@ while ($row = mysqli_fetch_assoc($req)) {
         <h1>Location</h1>
 
         <?php if (count($annonces) === 0): ?>
-            <p class="annonces">Aucune annonce disponible pour le moment.</p>
+            <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                Aucune annonce disponible pour le moment.
+            </h1>
         <?php else: ?>
             <?php for ($i = 0; $i < count($annonces); $i += 2): ?>
                 <div class="maison">
