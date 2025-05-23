@@ -108,6 +108,10 @@ while ($row = mysqli_fetch_assoc($req)) {
                                         <p><?= htmlspecialchars($a['etage']) ?></p>
                                     </div>
                                 </div>
+                                <?php if ($admin): ?>
+                                    <a class="effacer" href="effacer.php?id=<?= $a['id']; ?>" style=" margin-left: 35%; background: rgb(170, 105, 105); padding: 5px;border-radius: 40px;">Supprimer</a>
+                                <?php endif; ?>
+
                             </div>
                         </div>
                     <?php endfor; ?>
